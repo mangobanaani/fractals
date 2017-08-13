@@ -1,0 +1,25 @@
+<!-- some small tests w/ fractals mangobanaani -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mandelbrot</title>
+    <script src="js/mandel.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="canvas" width="windowX" height="windowY" style="border:1px solid #000000;"></canvas>
+
+<script>
+    var ctx = document.getElementById("canvas").getContext("2d");
+    render(ctx);
+
+</script>
+
+</body>
+</html>
